@@ -1,0 +1,184 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "TheCLI.dev"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+    
+Paginate: 3
+# disqusShortname: none
+# googleAnalytics: none
+# enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /posts
+      weight: 100
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "TheCLI.dev"
+  description: Calin Laurentiu Ilie's blog
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "dark" # light
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandName: "TheCLI.dev" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    menus:
+      disableAbout: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Calin Laurentiu Ilie"
+    subtitle: "I am an Engineering manager"
+    content: "During the night I am a Site Reliability Engineer. I am sharing my thoughts, opinions, and experiences on these topics to provide insight and advice to others in the field. These views are solely my own and do not represent the views of any organization I am associated with."
+    image: /images/me_rack.jpg
+    url: /posts
+    button:
+      enable: true
+      name: Blog
+      url: /posts
+      download: false
+      newPage: false
+    # socialLinks:
+    #   fontAwesomeIcons:
+    #     - icon: fab fa-github
+    #       url: https://example.com
+    #     - icon: fab fa-twitter
+    #       url: https://example.com
+    #   customIcons:
+    #     - icon: /fav.png
+    #       url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+
+      I am a father, husband, engineering manager and software engineer. When I am not either of those, I play basketball and I run. 
+
+      When I was 15 I launched an ISP company. At 19 I moved to Denmark to pursue college. 
+      
+      Between 2010 and 2015 I have been working in tech startups in Copenhagen. I have been the first software developer in two startups. One of them failed, the other had a successful exit. I also started two companies myself, and learned a lot from those experiences.
+
+      In 2015 I joined Visma e-conomic as a software developer. Became a team manager in Jan 2017. In 2019 I took on the role of Head of Engineering. In 2020 I became the Director of Engineering. In 2022 I decided to work closer with the SRE and Platform teams and I became the Head of Platform and Infrastructure for Visma e-conomic. 
+
+      
+    # skills:
+    #   enable: false
+    #   title: "Here are a few technologies I've been working with recently:"
+    #   items:
+    #     - "HTML"
+    #     - "CSS"
+    #     - "JavaScript"
+    #     - "React"
+    #     - "Node"
+    #     - "Express"
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: Whether you have a question, wish to challenge my views, or just want to say hi, my inbox is available. I'll try my best to get back to you.
+    email: calinilielaur@gmail.com
+    btnName: Mail me
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      # github: https://github.com
+      linkedin: https://www.linkedin.com/in/calinlaurentiuilie/
+      # twitter: https://twitter.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
