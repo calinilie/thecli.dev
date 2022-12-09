@@ -112,7 +112,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Calin Laurentiu Ilie"
-    subtitle: "I am an Engineering manager"
+    subtitle: "I am an Engineering Manager"
     content: "During the night, and when on pager-duty, I am also a Site Reliability Engineer. I am sharing my thoughts, opinions, and experiences on these topics to provide insight and advice to others in the field. These views are solely my own and do not represent the views of any organization I am associated with."
     image: /images/me_rack.jpg
     url: /posts
