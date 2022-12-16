@@ -114,7 +114,7 @@ params:
     title: "Calin Laurentiu Ilie"
     subtitle: "I am an Engineering Manager"
     content: "During the night, and when on pager-duty, I am also a Site Reliability Engineer. I am sharing my thoughts, opinions, and experiences on these topics to provide insight and advice to others in the field. These views are solely my own and do not represent the views of any organization I am associated with."
-    image: /images/me_rack.jpg
+    image: /images/avatar.jpg
     url: /posts
     button:
       enable: true
@@ -163,7 +163,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: Whether you have a question, wish to challenge my views, or just want to say hi, my inbox is available. I'll try my best to get back to you.
+    content: Whether you have a question, wish to challenge my views, or just want to say hi, my inbox is available.
     email: calinilielaur@gmail.com
     btnName: Mail me
 
