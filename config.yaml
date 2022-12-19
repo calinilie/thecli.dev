@@ -147,17 +147,6 @@ params:
 
       In 2015 I joined Visma e-conomic as a software developer. Became a team manager in Jan 2017. In 2019 I took on the role of Head of Engineering. In 2020 I became the Director of Engineering. In 2022 I decided to work closer with the SRE and Platform teams and I became the Head of Platform and Infrastructure for Visma e-conomic. 
 
-      
-    # skills:
-    #   enable: false
-    #   title: "Here are a few technologies I've been working with recently:"
-    #   items:
-    #     - "HTML"
-    #     - "CSS"
-    #     - "JavaScript"
-    #     - "React"
-    #     - "Node"
-    #     - "Express"
 
   #Contact
   contact:
