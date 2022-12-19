@@ -4,6 +4,7 @@ date: 2022-12-19T23:39:13+01:00
 tags: ["blog", "conference", "google cloud"]
 description: "An few personal key takeaways from Google Kubernetes Summit 2022"
 image: /images/gke-summit-22.jpg
+socialShare: false
 ---
 
 Together with the two great gentlemen and colleagues of mine I had the pleasure of visiting Google’s HQ 
