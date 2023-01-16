@@ -20,11 +20,11 @@ It's important to have shared values and articulate them. We spent two days walk
 When there is disagreement about how something should be done or who should do it, we refer back to our values and principles, rendering decision making more efficient. Living and acting in accordance with our values also reinforce the team and company culture.
 
 ## The employer should facilitate this, periodically
-As a distributed team, it is important to have the resources and support from our employer to effectively communicate and collaborate with one another. Having regular in-person meetings and team-building activities not only helps to foster a sense of cohesion and connection among team members, but also allows for more efficient problem-solving and idea generation. Investing in communication and collaboration for a distributed team ultimately leads to improved productivity, motivation and job satisfaction.
+For distributed teams, it is important they have the resources and support from their employer to effectively communicate and collaborate with one another. Having regular in-person meetings and team-building activities not only helps to foster a sense of cohesion and connection among team members, but also allows for more efficient problem-solving and idea generation. Investing in communication and collaboration for a distributed team ultimately leads to improved productivity, motivation and job satisfaction.
 
 While value attribution can be difficult, the ROI is massive. 
 
-It is not always comfortable to spend time with your colleagues outside of work and it may not be feasible for some. For distributed teams, it can be even more challenging. Not everyone can afford to travel and be away from family or other obligations that require their presence at home, but if they can make it work then there are many benefits for both parties.
+Not everyone is comfortable spending time with their colleagues outside of work and it may not be feasible for some. For distributed teams, it can be even more challenging. Not all can afford to travel and be away from family or other obligations that require their presence at home, but if they can make it work then there are many benefits for both parties.
 
 ## Our time in northern Italy
 People opened up and shared personal stories. We got to learn about each other. What motivates us, what doesn’t, what ticks us off and what our passions are.
