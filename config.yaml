@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://thecli.dev/"
 languageCode: "en-us"
 title: "TheCLI.dev"
 theme: hugo-profile
@@ -80,7 +80,7 @@ params:
     button:
       enable: true
       name: Blog
-      url: /posts
+      url: /blog
       download: false
       newPage: false
 
