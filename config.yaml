@@ -27,7 +27,7 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog posts
-      url: /posts
+      url: /blog
       weight: 100
 
 params:
@@ -76,7 +76,7 @@ params:
     subtitle: "I am an Engineering Manager"
     content: "During the night, and when on pager-duty, I am also a Site Reliability Engineer. I am sharing my thoughts, opinions, and experiences on these topics to provide insight and advice to others in the field. These views are solely my own and do not represent the views of any organization I am associated with."
     image: /images/avatar.jpg
-    url: /posts
+    url: /blog
     button:
       enable: true
       name: Blog
