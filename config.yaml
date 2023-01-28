@@ -11,7 +11,7 @@ outputs:
   page:
     - "HTML"
     - "RSS"
-    
+
 Paginate: 3
 # disqusShortname: none
 # googleAnalytics: none
@@ -91,13 +91,13 @@ params:
     image: "/images/me.jpg"
     content: |-
 
-      I am a father, husband, engineering manager and software engineer. When I am not either of those, I play basketball and I run. 
+      I am a father, husband, engineering manager and software engineer. When I am not either of those, I play basketball and I run.
 
-      When I was 15 I launched an ISP company. At 19 I moved to Denmark to pursue college. 
-      
+      When I was 15 I launched an ISP company. At 19 I moved to Denmark to pursue college.
+
       Between 2010 and 2015 I have been working in tech startups in Copenhagen. I have been the first software developer in two startups. One of them failed, the other had a successful exit. I also started two companies myself, and learned a lot from those experiences.
 
-      In 2015 I joined Visma e-conomic as a software developer. Became a team manager in Jan 2017. In 2019 I took on the role of Head of Engineering. In 2020 I became the Director of Engineering. In 2022 I decided to work closer with the SRE and Platform teams and I became the Head of Platform and Infrastructure for Visma e-conomic. 
+      In 2015 I joined Visma e-conomic as a software developer. Became a team manager in Jan 2017. In 2019 I took on the role of Head of Engineering. In 2020 I became the Director of Engineering. In 2022 I decided to work closer with the SRE and Platform teams and I became the Head of Platform and Infrastructure for Visma e-conomic.
 
 
   #Contact
@@ -110,13 +110,13 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "blog"
       count: 3
       title: Recent Posts
-      enable: false
+      enable: true
       disableFeaturedImage: false
     socialNetworks:
-      # github: https://github.com
+      github: https://github.com/calinilie
       linkedin: https://www.linkedin.com/in/calinlaurentiuilie/
       # twitter: https://twitter.com
 
