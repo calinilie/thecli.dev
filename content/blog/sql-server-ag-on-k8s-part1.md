@@ -4,7 +4,7 @@ date: 2023-01-28T22:31:55+01:00
 socialShare: false
 tags: ["K8s", "high availability", "distributed system"]
 description: "Attempting to deploy an Always On SQL Server Availability Group on Kubernetes"
-# image: /images/sql-server-ag-on-k8s-part1-1.png
+image: /images/sql-server-ag-on-k8s-part1-top.jpg
 ---
 
 When I was at the [GKE summit](/blog/gke-summit-22) back in December I talked to one of the PMs about running
@@ -57,3 +57,6 @@ the primary SQL replica, and when it detects and outage it instructs the SQL AG 
 <img src="/images/sql-server-ag-on-k8s-part1-2.png" alt="figure 2. SQL Server AG on K8s" class="half-width"/>
 
 As with everything, it is easier said than done. Will get to do a POC for this, but that's for another time.
+
+PS. If you're wondering about the top image, it is the result of asking an AI to generate "a sail ship that is also
+ a datacenter, sailing in the ocean".
