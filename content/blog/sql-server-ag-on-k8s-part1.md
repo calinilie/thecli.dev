@@ -19,7 +19,7 @@ The challenging part about running SQL Server on K8s, is setting up an Always On
 in the event of an outage on the primary replica, would automatically failover to one
 of the secondary replicas.
 
-As a side-note there seems to be a commercial 3rd party solution for running SQL Server AG on K8s. Perhaps Microsoft
+As a side-note, there seems to be a commercial 3rd party solution for running SQL Server AG on K8s. Perhaps Microsoft
 will one day offer support for K8s AGs out of the box as well. They did
 [showcase](https://github.com/microsoft/sql-server-samples/tree/master/samples/features/high%20availability/Kubernetes)
 this capability with SQL Server 2019 preview.
@@ -47,8 +47,8 @@ so the concept of a virtual and static IP behind a K8s service is rather problem
 
 We could use a K8s service instead.
 
-* Have a K8s service to which all clients connect and which is serving traffic to the primary SQL replica
-* When an outage occurs and Pacemaker triggers a failover, call the K8s api to switch the pod behind the
+* Have a K8s service to which all clients connect and which directs traffic to the primary SQL replica
+* When an outage occurs and Pacemaker triggers a failover, calls the K8s api to switch the pod behind the
 K8s service with the, now new, primary SQL replica
 
 In fact, this could be achieved without Pacemaker altogether. We'd need to deploy a service which monitors the health of
